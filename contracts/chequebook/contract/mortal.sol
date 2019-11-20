@@ -7,4 +7,5 @@ contract mortal is owned {
         if (msg.sender == owner)
             selfdestruct(owner);
     }
+    
 }
